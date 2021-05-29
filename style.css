@@ -1,0 +1,202 @@
+ 
+html
+{
+   scroll-behavior: smooth;
+}
+.butoane-navbar
+{
+   height: 40px;
+   width: 100%;
+}
+.imagini-carousel
+{
+   height: 800px;
+}
+.navbar
+{
+
+   background-color: white;
+}
+#text-bara-despre
+{
+   text-align: center;
+   padding-top: 10px;
+   font-size: larger;
+}
+#butonul-despre-navbar
+{
+   font-size: 12px;
+   padding: 0px 10px;
+  
+
+}
+.text
+{
+   font-family: 'Times New Roman', Times, serif;
+   
+} 
+.text-navbar
+{
+   font-weight: bold;
+   
+}
+#sectiunea-despre
+{
+   text-align: center;
+   font-size: 300%;
+   color: rgb(10, 8, 10);
+}
+.text-new-york-peste-imagine-carousel 
+{
+   position: absolute;
+   text-align: center;
+   top: 35%;
+   left: 38%;
+   font-size: 400%;
+   color:white;
+}
+.text-bine-ati-venit-imagine-carousel
+{
+   position: absolute;
+   text-align: center;
+   top: 45%;
+   left: 43%;
+   font-size: 200%;
+   font-style: italic;
+   color:white;
+}
+.container-despre
+{
+ background-color: rgba(220, 224, 223, 0.39);
+}
+#descriere-new-york
+{
+   font-size: 150% ;
+
+}
+ #link-new-york-despre:visited {
+   color: rgba(72, 211, 204, 0.719);
+   background-color: transparent;
+   text-decoration: none;
+ }
+ #link-new-york-despre:hover
+ {
+    color: rgba(241, 63, 40, 0.678);
+ }
+ #imagine-sectiunea-despre
+ {
+    height: 80%;
+    width: 100%;
+    opacity: 90%;
+ }
+ .imagine-sectiunea-despre:hover
+ {
+   opacity: 100%;
+ }
+ .imagini-random
+ {
+   
+    opacity: 90%;
+ }
+ .imagini-random:hover
+ {
+   opacity: 100%;
+ }
+.buton-navbar
+{
+   margin-right: 5px;
+}
+#obiective
+{
+   font-size: 200%;
+   text-align: center;
+   font-style: italic;
+   font-weight: bold;
+}
+.titluri-obiective-turistice
+{
+ font-size: 160%;
+ font-style: oblique;
+   text-align: start;
+
+}
+.paragrafe-obiective-turistice
+{
+   font-size: 140%;
+   text-align: justify;
+   
+}
+div.polaroid {
+   width: 80%;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin-bottom: 25px;
+ }
+ 
+ div.container {
+   text-align: center;
+   padding: 10px 20px;
+ }
+ .container-statuia-libertatii {
+   position: relative;
+   width: 50%;
+ }
+ 
+ .image {
+   display: block;
+   width: 50%;
+   margin-left: 25%;
+   height: auto;
+ }
+ 
+ .overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 25%;
+   right: 0;
+   height: auto;
+   width: 50%;
+   opacity: 0;
+   transition: .5s ease;
+   background-color: #008CBA;
+ }
+ 
+ .container-statuia-libertatii:hover .overlay {
+   opacity: 1;
+ }
+ 
+ .text-statuia-libertatii {
+   color: white;
+   font-size: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+ }
+ #imagine-central-park
+ {
+    width: auto;
+    opacity: 70%;
+ }
+ #imagine-central-park:hover
+ {
+    opacity: 100%;
+ }
+ #hudson-image:hover
+{
+   transform: scaleX(-1);
+
+}
+#contact
+{
+   margin-left: 100px;
+   padding-top: 40px;
+}
+.footer
+{
+   height: 100px;
+   background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(223,254,255,1) 42%, rgba(62,229,235,1) 84%, rgba(7,245,255,1) 95%);
+}
